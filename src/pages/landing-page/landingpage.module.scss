@@ -4,7 +4,7 @@
 .hero {
         background-color: #e6f0ff;
         padding-top: pix-rem(0);
-        min-height: 100vh;
+        min-height: 95vh;
         overflow-x: visible;
         padding-inline: pix-rem(16);
         -webkit-mask-image: url(./assets/heroclip.svg);
@@ -73,5 +73,40 @@
                                 }
                         }
                 }
+        }
+}
+
+.aboutUs {
+        padding-block: pix-rem(40);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__img {
+                width: min(100%, pix-rem(600.85));
+        }
+        &__content {
+                width: min(100%, pix-rem(590));
+                margin-top: pix-rem(110);
+
+        }
+        &__title{
+                font-size: pix-rem(32);
+        }
+        &__details{
+                margin-top: pix-rem(38);
+                font-size: pix-rem(24);
+                color: #313131;
+                font-weight: 400;
+        }
+        &__cta{
+                width: min(100%, pix-rem(146));
+                background-color: #006cff;
+                text-align: center;
+                padding-block: pix-rem(16);
+                text-decoration: none;
+                color: white;
+                display: inline-block;
+                border-radius: pix-rem(4);
+                margin-top: pix-rem(60);
         }
 }
