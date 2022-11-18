@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './landingpage.module.scss'
 import heroImage from './assets/Group 1000000899.webp'
+import OurClient from '../../components/our-client'
 
 
 function LandingPage() {
@@ -28,7 +29,7 @@ function LandingPage() {
                                 </div>
                         </section>
                         <section>
-                                <h2>Our Clients</h2>
+                                <OurClient />
                         </section>
 
                 </div>

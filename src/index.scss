@@ -1,1 +1,15 @@
-@use './reset.scss';
+@use "./reset.scss";
+@use "./functions.scss" as *;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
+:root {
+        font-family: "Kanit", sans-serif;
+}
+
+section {
+        padding-inline: pix-rem(16);
+}
+
+.container {
+        width: min(100%, pix-rem(1204));
+        margin-inline: auto;
+}
