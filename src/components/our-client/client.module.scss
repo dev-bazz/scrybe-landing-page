@@ -14,5 +14,7 @@
                 font-size: pix-rem(32);
                 font-weight: 600;
         }
-        
+        .display{
+                width: min(100%, pix-rem(200));
+        }
 }
