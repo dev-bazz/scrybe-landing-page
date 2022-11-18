@@ -1,0 +1,7 @@
+@use "../../functions.scss" as *;
+
+.container {
+        width: min(100%, pix-rem(1220));
+        margin-inline: auto;
+        
+}
