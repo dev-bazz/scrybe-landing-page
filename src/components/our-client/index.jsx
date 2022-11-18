@@ -9,16 +9,16 @@ function OurClient() {
                 <div className={`container ${styles.container}`}>
                         <h2 className={styles.title}>Our Clients</h2>
                         <div className={styles.logos}>
-                                <div className="display">
+                                <div className={styles.display}>
                                         <img src={hng} alt="HNG" srcset="" />
                                 </div>
-                                <div className="display">
+                                <div className={styles.display}>
                                         <img src={zuri} alt="Zuri" srcset="" />
                                 </div>
-                                <div className="display">
+                                <div className={styles.display}>
                                         <img src={payoneer} alt="" srcset="" />
                                 </div>
-                                <div className="display">
+                                <div className={styles.display}>
                                         <img src={hotelng} alt="" srcset="" />
                                 </div>
                         </div>
