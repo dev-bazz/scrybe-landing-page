@@ -16,9 +16,9 @@ function LandingPage() {
                                                         for yor Business</h1>
                                                 <p className={styles.heroText}>We help businesses unlock insights and extract meaningful
                                                         data from your customer support conversations </p>
-                                                <div>
-                                                        <a href="#">CTA</a>
-                                                        <a href='#'> CTA</a>
+                                                <div className={styles.CTAs}>
+                                                        <a href="#" className={styles.ctaDemo}>Request a Demo</a>
+                                                        <a href='#' className={styles.ctaStarter}>Get Started</a>
                                                 </div>
 
                                         </div>
@@ -28,7 +28,7 @@ function LandingPage() {
                                 </div>
                         </section>
                         <section>
-                                hello
+                                <h2>Our Clients</h2>
                         </section>
 
                 </div>
