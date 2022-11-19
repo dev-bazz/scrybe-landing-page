@@ -4,11 +4,12 @@ import heroImage from './assets/Group 1000000899.webp'
 import OurClient from '../../components/our-client'
 import aboutUsimage from './assets/Group 1000000931.webp'
 import FaqElement from '../../components/faqElement'
+import Hero from '../../components/heroSection'
 
 function LandingPage() {
         return (
                 <div >
-                        <section className={styles.hero} >
+                        {/* <section className={styles.hero} >
                                 <div className={styles.container}>
                                         <div className={styles.content}>
                                                 <h1 className={styles.heroH1}>World class Transcription
@@ -27,7 +28,8 @@ function LandingPage() {
                                                 <img src={heroImage} alt="" srcset="" />
                                         </div>
                                 </div>
-                        </section>
+                        </section> */}
+                        <Hero />
                         <section aria-label='Our Clients' >
                                 <OurClient />
                         </section>
