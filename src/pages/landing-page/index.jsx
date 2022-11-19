@@ -551,14 +551,25 @@ function LandingPage() {
                                 <div className="container">
                                         <h2 className={styles.faq__h2}>FREQUENTLY ASKED <span>QUESTIONS</span> </h2>
                                         <div className={styles.faq_faqs}>
-                                                <FaqElement />
-                                                <FaqElement />
-                                                <FaqElement />
-                                                <FaqElement />
-                                                <FaqElement />
+                                                <FaqElement question={`How do I register on Scrybe?`} />
+                                                <FaqElement question={`What are the limitations of free package?`} />
+                                                <FaqElement question={`What format can i use for uploads?`} />
+                                                <FaqElement question={`Who has access to my data?`} />
+                                                <FaqElement question={`How can i have best quality of transcript and analysis?`} />
                                         </div>
+                                        <a href="#" className={styles.faq__load}>Load more questions</a>
                                 </div>
+                        </section>
 
+                        <section className={styles.subscribe}>
+                                <div className="container">
+                                        <h1 className={styles.subscribe__title}>Subscribe To Our Newsletter And
+                                                Get Newest industry Updates</h1>
+                                        <form className={styles.subscribe__form}>
+                                                <input type="text" />
+                                                <button type='submit' href="#" className={styles.subscribe__cta}>Subscribe</button>
+                                        </form>
+                                </div>
                         </section>
 
 

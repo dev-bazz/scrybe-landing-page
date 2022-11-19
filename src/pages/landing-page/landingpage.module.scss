@@ -176,17 +176,68 @@
 
 .faq {
         padding-block: pix-rem(24);
-        &__h2{
+        &__h2 {
                 font-size: pix-rem(32);
                 text-align: center;
-                &> span{
-                        color: #0095E8;
+                & > span {
+                        color: #0095e8;
                 }
         }
-        &_faqs{
+        &_faqs {
                 margin-top: pix-rem(50);
-                &> *{
+                & > * {
                         margin-top: pix-rem(32);
                 }
+        }
+        &__load {
+                text-decoration: none;
+                padding-block: pix-rem(16);
+                color: #006cff;
+                border: pix-rem(1) solid #006cff;
+                display: block;
+                width: min(100%, pix-rem(180));
+                text-align: center;
+                border-radius: pix-rem(4);
+                margin-top: pix-rem(32);
+                margin-inline: auto;
+        }
+}
+
+.subscribe {
+        background-color: #e6f6ff;
+        padding-block: pix-rem(90);
+        &__form {
+                display: flex;
+                flex-flow: row;
+                width: min(100%, pix-rem(627));
+                margin-inline: auto;
+                margin-top: pix-rem(60);
+                gap: pix-rem(8);
+                & > * {
+                        &:nth-child(1) {
+                                flex: 2 1 0;
+                                background-color: transparent;
+                                border: pix-rem(1) solid #C5C5C5;
+                                padding-block: pix-rem(16);
+                                padding-inline: pix-rem(32);
+                                border-radius: pix-rem(4);
+                        }
+                        &:nth-child(2) {
+                                flex: 1 1 0;
+                                max-width: pix-rem(136);
+                                padding-block: pix-rem(16);
+                                padding-inline: pix-rem(32);
+                                background-color: #006CFF;
+                                color: white;
+                                border: none;
+                                border-radius: pix-rem(4);
+                        }
+                }
+        }
+        &__title {
+                font-size: pix-rem(48);
+                text-align: center;
+                max-width: 24ch;
+                margin-inline: auto;
         }
 }
