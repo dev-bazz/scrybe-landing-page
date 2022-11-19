@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap");
 .hero {
         background-color: #e6f0ff;
-        padding-top: pix-rem(0);
+        padding-block: pix-rem(16);
         min-height: 95vh;
         overflow-x: visible;
         padding-inline: pix-rem(16);
@@ -176,4 +176,17 @@
 
 .faq {
         padding-block: pix-rem(24);
+        &__h2{
+                font-size: pix-rem(32);
+                text-align: center;
+                &> span{
+                        color: #0095E8;
+                }
+        }
+        &_faqs{
+                margin-top: pix-rem(50);
+                &> *{
+                        margin-top: pix-rem(32);
+                }
+        }
 }

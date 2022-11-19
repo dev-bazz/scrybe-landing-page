@@ -3,6 +3,7 @@ import styles from './landingpage.module.scss'
 import heroImage from './assets/Group 1000000899.webp'
 import OurClient from '../../components/our-client'
 import aboutUsimage from './assets/Group 1000000931.webp'
+import FaqElement from '../../components/faqElement'
 
 function LandingPage() {
         return (
@@ -548,7 +549,14 @@ function LandingPage() {
                         </section>
                         <section className={styles.faq}>
                                 <div className="container">
-                                        <h2>FREQUENTLY ASKED <span>QUESTIONS</span> </h2>
+                                        <h2 className={styles.faq__h2}>FREQUENTLY ASKED <span>QUESTIONS</span> </h2>
+                                        <div className={styles.faq_faqs}>
+                                                <FaqElement />
+                                                <FaqElement />
+                                                <FaqElement />
+                                                <FaqElement />
+                                                <FaqElement />
+                                        </div>
                                 </div>
 
                         </section>
