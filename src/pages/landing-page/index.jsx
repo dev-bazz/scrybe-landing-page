@@ -31,7 +31,7 @@ function LandingPage() {
                                 <OurClient />
                         </section>
 
-                        <section >
+                        <section aria-label='About Us' >
                                 <div className={`container ${styles.aboutUs}`}>
                                         <div className={styles.aboutUs__img}>
                                                 <img src={aboutUsimage} alt="" srcset="" />
@@ -45,6 +45,46 @@ function LandingPage() {
                                         </div>
                                 </div>
                         </section>
+                        <section className={styles.gettingStarted}>
+                                <div className={`container`}>
+                                        <h2 className={styles.gettingStarted__title}>Getting Started</h2>
+                                        <div className={styles.gettingStarted__cards}>
+                                                <div className={styles.gettingStarted__card}>
+                                                        <div className={styles.gettingStarted__card_image}>
+                                                                img
+                                                        </div>
+                                                        <h3 className={styles.gettingStarted__card_title}>Upload Audio</h3>
+                                                        <p className={styles.gettingStarted__card_detail}>Upload Audio between customers
+                                                                and staff on our database</p>
+                                                        <a href="#" className={styles.gettingStarted__card_cta}>Get Started</a>
+                                                </div>
+
+                                                <div className={styles.gettingStarted__card}>
+                                                        <div className={styles.gettingStarted__card_image}>
+                                                                img
+                                                        </div>
+                                                        <h3 className={styles.gettingStarted__card_title}>Transcribe Text</h3>
+                                                        <p className={styles.gettingStarted__card_detail}>Our system transcribes these audio
+                                                                into readable texts</p>
+
+                                                </div>
+
+                                                <div className={styles.gettingStarted__card}>
+                                                        <div className={styles.gettingStarted__card_image}>
+                                                                img
+                                                        </div>
+                                                        <h3 className={styles.gettingStarted__card_title}>Sentimental Analysis</h3>
+                                                        <p className={styles.gettingStarted__card_detail}>The text is analyzed  using open Ai for
+                                                                for sentiments</p>
+                                                        <a href="#" className={styles.gettingStarted__card_cta}>Get Started</a>
+                                                </div>
+                                        </div>
+
+
+                                </div>
+
+                        </section>
+
 
                 </div>
         )

@@ -19,7 +19,7 @@
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
-                @include media(1189) {
+                @include media(1220px) {
                         justify-content: center;
                 }
 
@@ -109,4 +109,58 @@
                 border-radius: pix-rem(4);
                 margin-top: pix-rem(60);
         }
+}
+
+.gettingStarted{
+        background-color: #E6F6FF;
+        padding-block: pix-rem(70);
+
+        &__title{
+                text-align: center;
+                font-size: pix-rem(32);
+        }
+
+        &__cards{
+                display: flex;
+                margin-top: pix-rem(60);
+                justify-content: space-between;
+                &>*{
+                        flex: 1;
+                        background-color: white;
+                        max-width: pix-rem(372);
+                        padding: pix-rem(24);
+                        border-radius: pix-rem(16);
+                        display: flex;
+                        flex-flow: column ;
+                        justify-content: flex-start;
+                        align-items: center;
+                }
+
+        }
+        &__card{
+                &_title{
+                        font-size: pix-rem(32);
+                        font-weight: 600;
+                        margin-top: pix-rem(46);
+                }
+                &_detail{
+                        font-size: pix-rem(20);
+                        font-weight: 300;
+                        color: #313131;
+                        margin-top: pix-rem(8);
+                        text-align: center;
+                }
+                &_cta{
+                        text-decoration: none;
+                        padding-block: pix-rem(16);
+                        color: #006CFF;
+                        border: pix-rem(1) solid #006CFF;
+                        display: inline-block;
+                        width: min(100%, pix-rem(180));
+                        text-align: center;
+                        border-radius: pix-rem(4);
+                        margin-top: pix-rem(32);
+                }
+        }
+
 }
