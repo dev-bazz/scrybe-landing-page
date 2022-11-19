@@ -1,5 +1,5 @@
 import './App.scss'
-import LandingPage from './pages/landing-page'
+import LandingPage from './pages/landing-page-a/index'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
