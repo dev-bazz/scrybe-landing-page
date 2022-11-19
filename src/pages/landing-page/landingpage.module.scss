@@ -87,18 +87,17 @@
         &__content {
                 width: min(100%, pix-rem(590));
                 margin-top: pix-rem(110);
-
         }
-        &__title{
+        &__title {
                 font-size: pix-rem(32);
         }
-        &__details{
+        &__details {
                 margin-top: pix-rem(38);
                 font-size: pix-rem(24);
                 color: #313131;
                 font-weight: 400;
         }
-        &__cta{
+        &__cta {
                 width: min(100%, pix-rem(146));
                 background-color: #006cff;
                 text-align: center;
@@ -111,50 +110,33 @@
         }
 }
 
-.gettingStarted{
-        background-color: #E6F6FF;
+.gettingStarted {
+        background-color: #e6f6ff;
         padding-block: pix-rem(70);
 
-        &__title{
+        &__title {
                 text-align: center;
                 font-size: pix-rem(32);
         }
 
-        &__cards{
-                display: flex;
-                margin-top: pix-rem(60);
-                justify-content: space-between;
-                &>*{
-                        flex: 1;
-                        background-color: white;
-                        max-width: pix-rem(372);
-                        padding: pix-rem(24);
-                        border-radius: pix-rem(16);
-                        display: flex;
-                        flex-flow: column ;
-                        justify-content: flex-start;
-                        align-items: center;
-                }
-
-        }
-        &__card{
-                &_title{
+        &__card {
+                &_title {
                         font-size: pix-rem(32);
                         font-weight: 600;
                         margin-top: pix-rem(46);
                 }
-                &_detail{
+                &_detail {
                         font-size: pix-rem(20);
                         font-weight: 300;
                         color: #313131;
                         margin-top: pix-rem(8);
                         text-align: center;
                 }
-                &_cta{
+                &_cta {
                         text-decoration: none;
                         padding-block: pix-rem(16);
-                        color: #006CFF;
-                        border: pix-rem(1) solid #006CFF;
+                        color: #006cff;
+                        border: pix-rem(1) solid #006cff;
                         display: inline-block;
                         width: min(100%, pix-rem(180));
                         text-align: center;
@@ -163,4 +145,28 @@
                 }
         }
 
+        &__cards {
+                display: flex;
+                margin-top: pix-rem(60);
+                justify-content: space-between;
+                & > * {
+                        flex: 1;
+                        background-color: white;
+                        max-width: pix-rem(372);
+                        padding: pix-rem(24);
+                        border-radius: pix-rem(16);
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                        border: 1px solid #8ABBFF;
+                        &:nth-child(2){
+                                border: 1px solid #292a2b;
+                                .gettingStarted__card_title{
+                                        margin-top: pix-rem(28);
+
+                                }
+                        }
+                }
+        }
 }
