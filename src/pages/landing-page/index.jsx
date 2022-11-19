@@ -546,6 +546,12 @@ function LandingPage() {
                                         </div>
                                 </div>
                         </section>
+                        <section className={styles.faq}>
+                                <div className="container">
+                                        <h2>FREQUENTLY ASKED <span>QUESTIONS</span> </h2>
+                                </div>
+
+                        </section>
 
 
                 </div>

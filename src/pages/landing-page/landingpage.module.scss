@@ -10,8 +10,12 @@
         -webkit-mask-image: url(./assets/heroclip.svg);
         mask-image: url(./assets/heroclip.svg);
         mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
         mask-position: 0 100%;
+        -webkit-mask-position: 0 100%;
         mask-size: cover;
+        -webkit-mask-size: cover;
+
         .container {
                 width: min(100%, pix-rem(1204));
                 margin-inline: auto;
@@ -159,14 +163,17 @@
                         flex-flow: column;
                         justify-content: flex-start;
                         align-items: center;
-                        border: 1px solid #8ABBFF;
-                        &:nth-child(2){
-                                border: 1px solid #292a2b;
-                                .gettingStarted__card_title{
+                        border: 1px solid #8abbff;
+                        &:nth-child(2) {
+                                border: 1px solid #828282;
+                                .gettingStarted__card_title {
                                         margin-top: pix-rem(28);
-
                                 }
                         }
                 }
         }
+}
+
+.faq {
+        padding-block: pix-rem(24);
 }
