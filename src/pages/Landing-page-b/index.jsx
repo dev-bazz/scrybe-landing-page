@@ -9,7 +9,7 @@ function PageB() {
                         <Hero />
                         <OurClient />
                         <section className={styles.customer}>
-                        <h2 className={styles.customer__h2}>See what our clients  are saying</h2>
+                                <h2 className={styles.customer__h2}>See what our clients  are<span> saying</span> </h2>
                                 <CustomerSay />
                         </section>
                 </>

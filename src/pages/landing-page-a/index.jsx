@@ -5,30 +5,12 @@ import OurClient from '../../components/our-client'
 import aboutUsimage from './assets/Group 1000000931.webp'
 import FaqElement from '../../components/faqElement'
 import Hero from '../../components/heroSection'
+import CustomerSay from '../../components/customersSay'
 
 function LandingPage() {
         return (
                 <div >
-                        {/* <section className={styles.hero} >
-                                <div className={styles.container}>
-                                        <div className={styles.content}>
-                                                <h1 className={styles.heroH1}>World class Transcription
-                                                        and <span className={styles.heroAccent}>
-                                                                Sentiment Analysis <wbr />
-                                                        </span>
-                                                        for yor Business</h1>
-                                                <p className={styles.heroText}>We help businesses unlock insights and extract meaningful
-                                                        data from your customer support conversations </p>
-                                                <div className={styles.CTAs}>
-                                                        <a href="#" className={styles.ctaDemo}>Request a Demo</a>
-                                                        <a href='#' className={styles.ctaStarter}>Get Started</a>
-                                                </div>
-                                        </div>
-                                        <div className={styles.heroImage}>
-                                                <img src={heroImage} alt="" srcset="" />
-                                        </div>
-                                </div>
-                        </section> */}
+
                         <Hero />
                         <section aria-label='Our Clients' >
                                 <OurClient />
@@ -548,6 +530,10 @@ function LandingPage() {
                                                 </div>
                                         </div>
                                 </div>
+                        </section>
+                        <section className={styles.customer}>
+                                <h2 className={styles.customer__h2}>See what our clients  are<span> saying</span> </h2>
+                                <CustomerSay />
                         </section>
                         <section className={styles.faq}>
                                 <div className="container">
